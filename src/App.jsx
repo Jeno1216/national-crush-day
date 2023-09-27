@@ -91,7 +91,7 @@ function App() {
 {currentDiv === 6 && (
           <div  className=' vh-100 d-flex flex-column p-0 justify-content-center align-items-center '>
             <div className='col-12  d-flex flex-column justify-content-center align-items-center p-0' >
-              <img className='rounded-2' style={{width: '300px'}} src="https://i.pinimg.com/736x/9d/c0/f0/9dc0f03f8c6223828d3f7e898d2ddd14.jpg" alt="" />
+              <img data-aos="fade-in" className='rounded-2' style={{width: '300px'}} src="https://i.pinimg.com/736x/9d/c0/f0/9dc0f03f8c6223828d3f7e898d2ddd14.jpg" alt="" />
             <div className='d-flex gap-2 mt-3 mb-3'>
               <button className='btn btn-primary ' onClick={handleClick} >Yes</button>
               <button className='btn btn-success' onClick={handleClick} >Yes</button>
