@@ -79,7 +79,7 @@ function App() {
 {currentDiv === 5 && (
           <div onClick={handleClick} className=' vh-100 d-flex flex-column p-0 justify-content-center align-items-center '>
             <div className='col-10  d-flex flex-column justify-content-center align-items-center p-0' >
-              <p className='' data-aos="zoom-in"> So, I was wondering if you'd like to grab a coffee together sometime.<i className='bi-smile'></i> </p>
+              <p className='text-center ' data-aos="zoom-in"> So, I was wondering if you'd like to grab a coffee together sometime.<i className='bi-smile'></i> </p>
             </div>
           </div>
     )}
