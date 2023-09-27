@@ -31,7 +31,7 @@ function App() {
         <div className='col-12  d-flex flex-column justify-content-center align-items-center p-0' >
           <p className='text-center ' style={{fontSize: '100px'}} data-aos="fade-in">Hey</p>
           <p className='text-center' data-aos-delay="100" data-aos="fade-up"> Happy National Crush Day! <i className='bi-heart-fill text-danger'></i></p>
-          <p className='text-center text-black-50 ' data-aos="fade-in">[click the screen]</p>
+          <p className='text-center text-black-50 ' data-aos-delay="100" data-aos="fade-up" >[click the screen]</p>
 
         </div>
       </div>
