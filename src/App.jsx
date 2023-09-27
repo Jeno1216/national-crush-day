@@ -104,7 +104,7 @@ function App() {
             <div className='col-10  d-flex flex-column justify-content-center align-items-center p-0' >
             <p className='mb-2 bi-heart-fill text-danger' data-aos="fade-in"> </p>
 
-              <img className='rounded' style={{width: '300px'}} data-aos="fade-in" src="https://media.licdn.com/dms/image/D5622AQGK_nYy-gArwA/feedshare-shrink_2048_1536/0/1692056963291?e=2147483647&v=beta&t=b0gmDrn_jkCR8t8RnxEWUAqSJW-NVeBNp9I7TlJfPis" alt="" />
+              <img className='rounded' style={{width: '300px'}} data-aos="fade-in" src="https://i.pinimg.com/736x/8e/0b/ac/8e0bac139390b0be4d5f3db8dcfee9ad.jpg" alt="" />
             </div>
           </div>
     )}
