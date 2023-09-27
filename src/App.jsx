@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import AOS from 'aos'; 
 import 'aos/dist/aos.css'; // Import AOS CSS
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import VanillaTilt from 'vanilla-tilt';
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
         <div className='col-12  d-flex flex-column justify-content-center align-items-center p-0' >
           <p className='text-center ' style={{fontSize: '100px'}} data-aos="fade-in">Hey</p>
           <p className='text-center' data-aos-delay="100" data-aos="fade-up"> Happy National Crush Day! <i className='bi-heart-fill text-danger'></i></p>
+          <p className='text-center text-black-50 ' data-aos="fade-in">[click the screen]</p>
+
         </div>
       </div>
     )}
@@ -79,6 +82,7 @@ function App() {
 {currentDiv === 5 && (
           <div onClick={handleClick} className=' vh-100 d-flex flex-column p-0 justify-content-center align-items-center '>
             <div className='col-10  d-flex flex-column justify-content-center align-items-center p-0' >
+            <img className='rounded-2 mb-4' style={{width: '200px'}} src="https://i.imgur.com/3xx86vA.png" alt="" />
               <p className='text-center ' data-aos="zoom-in"> So, I was wondering if you'd like to grab a coffee together sometime.<i className='bi-smile'></i> </p>
             </div>
           </div>
